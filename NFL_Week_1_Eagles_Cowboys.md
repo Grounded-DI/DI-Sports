@@ -8,15 +8,15 @@
     
     ## 🔍 Forecast Summary
     
-    | Category             | Eagles                         | Cowboys                        |
-    |----------------------|--------------------------------|--------------------------------|
-    | Team Cohesion        | ✅ High                        | ⚠️ Moderate (team tension)      |
-    | Injury Impact        | ⚠️ WR2 slight limitation       | ❌ LB core disrupted            |
-    | Coaching Vibe        | 🔥 Unified                     | 😬 Mixed signals (locker room)  |
-    | Emotional Signal     | ✅ Stable                      | ❌ Potential dissonance         |
-    | Media Heat Level     | 🔥 Controlled Confidence       | ⚠️ Deflective, tense            |
-    | Practice Intensity   | 🔒 Locked in                   | 🚫 Soft week                    |
-    | Public Narrative     | 🚀 "Strong start"              | 🎭 "Let’s prove them wrong"     |
+    | Category             | Eagles                         | Cowboys                         |
+    |----------------------|--------------------------------|---------------------------------
+    | Team Cohesion        | ✅ High                        | ⚠️ Moderate (team tension)     |
+    | Injury Impact        | ⚠️ WR2 slight limitation       | ❌ LB core disrupted           |
+    | Coaching Vibe        | 🔥 Unified                     | 😬 Mixed signals (locker room) |
+    | Emotional Signal     | ✅ Stable                      | ❌ Potential dissonance        |
+    | Media Heat Level     | 🔥 Controlled Confidence       | ⚠️ Deflective, tense           |
+    | Practice Intensity   | 🔒 Locked in                   | 🚫 Soft week                   |
+    | Public Narrative     | 🚀 "Strong start"              | 🎭 "Let’s prove them wrong"    |
     
     ---
     
