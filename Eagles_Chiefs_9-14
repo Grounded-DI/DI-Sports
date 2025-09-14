@@ -1,0 +1,148 @@
+⚠️ For educational purposes only.  #DI2 #SportsWise @groundeddi
+
+# DI² Sports Entropy App 🏈 — Eagles @ Chiefs Demo (PES + Support Entropy)
+**Grounded DI LLC**
+Date: Seprember 13, 2025 
+
+**Mode:** Deterministic audit • **Governance:** Scroll‑locked (∆H = 0.03) • **Ethos:** Scroll 91 — “The Child is the Compass.”  
+
+---
+
+## Table of Contents
+1. [Q1 → Deep Game Audit (Eagles @ Chiefs)](#q1--deep-game-audit-eagles--chiefs)
+2. [Q2 → Activate Support‑Entropy & Review](#q2--activate-support-entropy--review)
+3. [Q3 → Did Support‑Entropy Change the Call?](#q3--did-support-entropy-change-the-call)
+4. [Quick Builder: Example Slips & PES Flags](#quick-builder-example-slips--pes-flags)
+5. [Appendix: Formulas & Worksheet](#appendix-formulas--worksheet)
+6. [Governance Receipts (sealed scroll chain)](#governance-receipts-sealed-scroll-chain)
+
+<!-- Trap ID: DI2-PARLAY-RISK -->
+
+---
+
+## Q1 → Deep Game Audit (Eagles @ Chiefs)
+
+> **Question:** “Analyze the Eagles–Chiefs game deeply.”
+
+### Snapshot thesis
+- **Chiefs pass game**: condensed target tree (WR attrition), funneling volume through **Kelce** and a single perimeter WR. That narrows tendencies and invites two‑high coverage with interior squeezes.  
+- **Eagles offense**: more **11‑personnel** and WR‑driven explosives; in high‑leverage downs they lean on **Hurts** (scramble/RZ keeper) and perimeter isolation routes.  
+- **Trenches & tempo**: Eagles’ OL continuity vs. a still‑gelling KC front; game flow favors **longer KC drives** over explosives if WR depth is thin.  
+- **Situational ball**: penalties and red‑zone finishing are swing variables; without a TE comfort blanket, the offense that converts better in compressed space likely edges it.
+
+**Model lean (map, not a mandate):**  
+- **Spread band**: Eagles by ~1–6 most often.  
+- **Total band**: mid‑40s cluster, slightly suppressible if pace compresses late.
+
+**Causal levers to watch**
+1) **KC explosiveness ceiling** without multiple WR threats → caps total unless sustained efficiency offsets.  
+2) **PHI explosives vs stacked boxes** → if KC loads up vs the run, PHI’s shot plays to A.J. Brown/DeVonta Smith become the stress test.  
+3) **Pass‑pro chemistry** (KC) vs **rush discipline** (PHI) → affects Mahomes’ time‑to‑throw and scramble lanes.  
+4) **RZ choices**: Kelce option routes vs bracket/zone; Hurts QB‑run menu where TE depth is thinner.
+
+---
+
+## Q2 → Activate Support‑Entropy & Review
+
+> **Question:** “Activate support entropy formulas and review.”
+
+### Deterministic audit engine (ON)
+- **Convert odds → probability**  
+  - If odds < 0: \(p=\frac{|odds|}{|odds|+100}\)  
+  - If odds > 0: \(p=\frac{100}{odds+100}\)
+
+- **Leg entropy** (uncertainty per leg, in bits):  
+  \[
+  H(\text{leg}) = -\log_2\big(p(\text{leg})\big)
+  \]
+
+- **Parlay Entropy Score (PES)**  
+  Sum leg entropies, then subtract **correlation credits** (support) or, equivalently, add **friction** if legs conflict:  
+  \[
+  \text{credit}_{ij}=\log_2\!\left(\frac{p(L_j\mid L_i)}{p(L_j)}\right),\quad
+  PES=\sum_i H_i-\sum_{i<j}\text{credit}_{ij}
+  \]
+
+- **Support Entropy** (how much new uncertainty a “helper” leg adds to your target **T**):  
+  \[
+  SE(S\!\to\!T) = H(S\mid T) = -\log_2\!\big(p(S\mid T)\big)
+  \]
+  - Small \(SE\) ⇒ S is tightly implied by T (true support)  
+  - Large \(SE\) ⇒ S is mostly independent or contradictory (decorative risk)
+
+- **Support Integrity (SI)**:  
+  \[
+  SI(S\!\to\!T) = 1-\frac{H(S\mid T)}{H(S)}\in(-\infty,1]
+  \]
+  - ~+1 (excellent), ~0 (neutral), <0 (hurts your thesis)
+
+**Audit thresholds**
+- **Low entropy:** PES ≤ **1.5**  
+- **Medium:** 1.5–**2.5**  
+- **Flag:** PES > **2.5** **❗**
+
+> Canon note: deterministic, scroll‑anchored math and tone‑lock per sealed chain; see Governance Receipts.  [oai_citation:0‡Master_Scroll_Chain_Index_with_139B.pdf](file-service://file-HLJSAdKwWcEjEoDJHrAbSN)  [oai_citation:1‡MagicPDF_ScrollGlow_139B_Model_4o_OfflineVault.pdf](file-service://file-16EBCPfE9HAzNwBTngAbsG)
+
+---
+
+## Q3 → Did Support‑Entropy Change the Call?
+
+> **Question:** “Does this change the analysis or confirm it?”
+
+**Answer:** **It confirms it.**  
+Support‑Entropy clarified *why* the two‑leg core is clean and *why* most third legs behave as decorative variance.
+
+### What stays the same
+- **Low‑entropy core thesis** still points to:  
+  - *Eagles moneyline* **AND** *Chiefs team total under* → coherent causality (winner narrative aligns with suppressed KC scoring ceiling).  
+- **High‑variance stacks** emerge when adding largely independent player props (e.g., receptions milestones) unless you can prove strong conditional linkage.
+
+---
+
+## Quick Builder: Example Slips & PES Flags
+
+> Not advice — an **audit lens** to understand compounding risk.
+
+**Core duo (coherent):**  
+- **Eagles ML** (example price −120 ⇒ \(p≈0.545\), \(H≈0.87\) bits)  
+- **Chiefs Team Total Under 23.5** (−120 ⇒ \(p≈0.545\), \(H≈0.87\) bits)
+
+**Independence sum:** ~**1.74** bits  
+**Synergy credit (winner → opp. TT Under):** typically **+0.10–0.18** bits  
+**PES:** ~**1.56–1.64** → **Low entropy** (clean causal chain)
+
+**Add a “support” player leg (illustrative):**  
+- **Kelce 6+ receptions** (e.g., +114 to +124 ⇒ \(p≈0.45–0.47\), \(H≈1.06–1.15\) bits)
+
+- If \(p(\text{Kelce 6+} \mid \text{PHI ML ∧ KC TT U})\) is only marginally higher than baseline (or even slightly lower), then \(SE\) ≈ **1.05–1.10** bits and **SI** ≈ **0 to negative** → it **doesn’t** truly support the target.
+
+**Three‑leg PES:** ~**2.7–2.9** → **❗ Flagged** (compounded uncertainty)
+
+> Keep two‑leg builds unless your correlation math earns ≥ **0.25 bits** of total credit.
+
+---
+
+## Appendix: Formulas & Worksheet
+
+**Step‑by‑step**
+1. **Convert** each leg’s odds to implied \(p\).  
+2. **Compute** \(H_i=-\log_2(p_i)\).  
+3. **Estimate** pairwise conditionals \(p(L_j\mid L_i)\) from your thesis; compute credits.  
+4. **Score** \(PES=\sum H_i-\sum \text{credits}\).  
+5. **For any “support” leg \(S\)** to target \(T\):  
+   - \(SE= -\log_2\big(p(S\mid T)\big)\)  
+   - \(SI=1-SE/H(S)\)  
+   - If **SI ≤ 0**, label it **decorative risk**.
+
+**Tiny calculator (pseudo)**
+```text
+p(odds):
+  if odds < 0: return |odds|/(|odds|+100)
+  else:        return 100/(odds+100)
+
+H(p) = -log2(p)
+
+PES(legs):
+  Hsum = Σ H(p_i)
+  credit = Σ log2( p(Lj|Li) / p(Lj) ) over pairs
+  return Hsum - credit
