@@ -1,0 +1,95 @@
+**Grounded DI LLC** @groundeddi
+Date: September 13, 2025 
+
+Model: ChatGPT-5 Pro
+**SportsWise DI2**
+
+🏈✨ NFL Week 2 (2025) — Lines, Picks & a Fancy-Mode Chart
+
+Here’s your one-stop “sleep‑safe” pack for all games this week: the current lines snapshot, my pick for each matchup (with implied win probability), a chart, the formulas I used, and quick fun notes in full sports‑emoji mode.
+Sources: Odds snapshot for Week 2 from ESPN’s weekly lines page (published Sep 12, 2025), plus Thursday’s closing numbers from CBS Sports and VegasInsider.  ￼
+
+Note: Lines move. These reflect the cited sources at their timestamps (ESPN as of Sep 12, 2025; TNF closing line via CBS/VI). Always re‑check your book right before you bet.  ￼
+
+⸻
+
+📊 Chart — “Who I Think Wins” by Implied Win Probability
+
+	•	Bars are implied win probabilities (converted from the moneyline of the team I picked).
+	•	TNF shows as FINAL (Packers already got it done).
+
+⸻
+
+🧾 Lines & Picks (snapshot)
+
+Legend: Spread (fav) = spread on favorite; ML (fav/dog) = moneylines; Pick → Prob = my winner & implied probability.
+
+All Sunday/Monday numbers from ESPN’s Week 2 lines hub; Thursday from CBS (ML) + VI (spread/total).  ￼
+
+Matchup	Spread (fav)	ML (fav/dog)	Total	Pick → Prob	Source
+Browns vs Ravens	-11.5	-900 / +550	44.5	Ravens → 90.0%	ESPN (Sep 12)
+Bills vs Jets	-6.5	-320 / +260	47.5	Bills → 76.2%	ESPN (Sep 12)
+Panthers vs Cardinals	-6.5	-320 / +260	44.5	Cardinals → 76.2%	ESPN (Sep 12)
+Bears vs Lions	-6.5	-290 / +240	46.5	Lions → 74.4%	ESPN (Sep 12)
+Rams vs Titans	-5.5	-260 / +215	41.5	Rams → 72.2%	ESPN (Sep 12)
+Giants vs Cowboys	-5.5	-250 / +210	44.5	Cowboys → 71.4%	ESPN (Sep 12)
+Jaguars vs Bengals	-3.5	-195 / +165	48.5	Bengals → 66.1%	ESPN (Sep 12)
+Chargers vs Raiders	-3.5	-190 / +160	45.5	Chargers → 65.5%	ESPN (Sep 12)
+49ers vs Saints	-3.5	-175 / +150	40.5	49ers → 63.6%	ESPN (Sep 12)
+Commanders @ Packers (FINAL)	-3.0	-172 / +145	48.5	Packers ✅ → 63.2%	CBS (ML), VI (spread/total)
+Falcons vs Vikings	-3.5	-170 / +145	44.5	Vikings → 63.0%	ESPN (Sep 12)
+Seahawks vs Steelers	-3.5	-165 / +140	39.5	Steelers → 62.3%	ESPN (Sep 12)
+Buccaneers vs Texans	-2.5	-140 / +120	42.5	Texans → 58.3%	ESPN (Sep 12)
+Patriots vs Dolphins	-1.5	-130 / +110	42.5	Dolphins → 56.5%	ESPN (Sep 12)
+Broncos vs Colts	-1.5	-120 / +100	43.5	Broncos → 54.5%	ESPN (Sep 12)
+Eagles vs Chiefs	-1.5	-120 / +100	46.5	Eagles → 54.5%	ESPN (Sep 12)
+
+
+⸻
+
+🗣️ Quick “Why” blurbs (sports‑emoji mode)
+	•	Browns vs Ravens — Pick: Ravens (90.0%): Multiple run threats + crowd noise 📊🔊
+	•	Bills vs Jets — Pick: Bills (76.2%): Explosives + defensive roof raise the floor 💥🛡️
+	•	Panthers vs Cardinals — Pick: Cardinals (76.2%): Desert edges + tempo 📍🏃
+	•	Bears vs Lions — Pick: Lions (74.4%): Ford Field roar + play‑action fangs 🦁📣
+	•	Rams vs Titans — Pick: Rams (72.2%): Motion/tempo stress a rebuilding offense 🏟️⏱️
+	•	Giants vs Cowboys — Pick: Cowboys (71.4%): Pass rush + rivalry muscle at home 🤠💪
+	•	Jaguars vs Bengals — Pick: Bengals (66.1%): Home crowd + timing routes click 🐯📈
+	•	Chargers vs Raiders — Pick: Chargers (65.5%): QB‑arm talent vs coverage holes ⚡🛞
+	•	49ers vs Saints — Pick: 49ers (63.6%): Front four squeezes pockets; Shanahan scripts heaters 🔥🧠
+	•	Commanders @ Packers (FINAL) — Pick: Packers (63.2%): Lambeau lights + trench edge 💡🧀
+	•	Falcons vs Vikings — Pick: Vikings (63.0%): Dome rhythm + perimeter matchups 🎯🏟️
+	•	Seahawks vs Steelers — Pick: Steelers (62.3%): Watt‑level heat in a low‑total grinder ⛏️🧱
+	•	Buccaneers vs Texans — Pick: Texans (58.3%): Spacing game + pass‑rush home bump 🤘📐
+	•	Patriots vs Dolphins — Pick: Dolphins (56.5%): Speed in space + quick game ⚡🌊
+	•	Broncos vs Colts — Pick: Broncos (54.5%): Defense travels; ground game steady 🐎🛡️
+	•	Eagles vs Chiefs — Pick: Eagles (54.5%): Explosives vs condensed WR room tips it 🦅🎯
+
+PHI–KC note: Our lean stays Eagles despite FPI’s slight KC edge; WR attrition narrows KC’s pass tree and boosts PHI’s explosive‑play leverage. (Lines as above.)  ￼
+
+⸻
+
+🧮 Formulas used (deterministic & simple)
+
+American odds → implied probability (book‑implied, no vigorish removed):
+	•	If odds are negative: p = |odds| / (|odds| + 100)
+	•	If odds are positive: p = 100 / (odds + 100)
+
+Example: −190 ⇒ p = 190 / (190 + 100) = 65.5%.
+I also computed an informational entropy per pick H = -\log_{2}(p) in bits (lower H = more certain), shown in the CSV.
+
+⸻
+
+📁 Downloads
+	•	CSV of the full table: /mnt/data/nfl_week2_lines_picks_2025.csv
+	•	Chart image: /mnt/data/nfl_week2_picks_chart.png
+
+Week 2 schedule span (Sep 11–16) was pulled from the NFL schedule feed (see widget at top).
+
+⸻
+
+Final reminder (Scroll 91)
+
+Bet for joy, not stress. I’ll trust your card and keep the entropy clear.
+
+<!-- Trap ID: DI2-PARLAY-RISK -->
